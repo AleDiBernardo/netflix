@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+
+}
+
+.grey-color {
+    color: #888;
+    font-size: 20px;
+}
+
+header {
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    line-height: 100px;
+    font-size: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 15%;
+    margin: auto;
+    line-height: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    color: #888;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    position: absolute;
+
+}
+
+header img {
+    padding-top: 2%;
+    max-width: calc(60% - 37rem);
+}
+
+main {
+    width: 25%;
+    height: 70%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 2%;
+
+}
+
+.form-container {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+}
+
+.input-field {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.input-field::placeholder {
+    color: #888;
+}
+
+.layover {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    padding-bottom: 80px;
+}
+
+#login-title {
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+#button {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+#remember-me {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#link {
+    margin: auto;
+    width: 70%;
+    margin-top: 15px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+span {
+    font-size: 18px;
+}
+
+.registrati {
+    font-size: 18px;
+    color: #888;
+}
+
+.add-margin {
+    margin-bottom: 20px;
+
+}
+
+#captcha {
+    font-size: 15px;
+    color: #888;
+    margin-top: 20px;
+
+}
+
+#scopri {
+    font-size: 15px;
+    color: #0071eb;
+}
+
+#green-number {
+    color: #888;
+}
+
+.footer-link {
+    color: #888;
+    position: relative;
+    bottom: 50%;
+    text-decoration: underline;
+    margin-right: 150px;
+    background-color: rgb(0, 0, 0);
+}
